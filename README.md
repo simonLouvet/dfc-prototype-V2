@@ -1,1 +1,1 @@
-# dfc-prototype-V2
+# Web Component boilerplate
