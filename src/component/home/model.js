@@ -21,4 +21,4 @@ export default class Home extends GenericElement {
 
   }
 }
-window.customElements.define('home-wc', Home);
+window.customElements.define('x-home', Home);

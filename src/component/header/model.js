@@ -21,4 +21,4 @@ export default class Header extends GenericElement {
 
   }
 }
-window.customElements.define('header-wc', Header);
+window.customElements.define('x-header', Header);

@@ -8,13 +8,15 @@
   <% } %>
 </head>
 <body>
-  <navigation-wc>
+  <x-service-catalog></x-service-catalog>
+  <x-navigation>
     <style>
       <%=require('./style/containers.css') %>
       <%=require('./style/shared.css') %>
     </style>
-  </navigation-wc>
-  <router-wc default="home-wc"></router-wc>
+  </x-navigation>
+  <x-router default="x-home"></x-router>
+
 </body>
 <style>
 <%=require('./style/colors.css') %>

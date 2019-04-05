@@ -1,6 +1,6 @@
 import GenericElement from '../../core/genericElement.js';
 import view from 'html-loader!./view.html';
-export default class Screen1 extends GenericElement {
+export default class Catalog extends GenericElement {
   constructor() {
     super(view);
     this.subscribe({
@@ -20,7 +20,14 @@ export default class Screen1 extends GenericElement {
   }
 
   setData(data) {
-
+    let catalogList =this.shadowRoot.getElementById('catalogList');
+    console.log(catalogList);
+    data.forEach(item=>{
+      let div = document.createElement('div');
+      let text = document.createTextNode(item.name);
+      div.appendChild(text);
+      catalogList.appendChild(div);
+    })
   }
 }
-window.customElements.define('x-screen1', Screen1);
+window.customElements.define('x-catalog', Catalog);

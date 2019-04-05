@@ -21,4 +21,4 @@ export default class Menu extends GenericElement {
 
   }
 }
-window.customElements.define('menu-wc', Menu);
+window.customElements.define('x-menu', Menu);

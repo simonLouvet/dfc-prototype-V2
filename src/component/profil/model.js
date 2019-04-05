@@ -1,6 +1,6 @@
 import GenericElement from '../../core/genericElement.js';
 import view from 'html-loader!./view.html';
-export default class Screen2 extends GenericElement {
+export default class Profil extends GenericElement {
   constructor() {
     super(view);
   }
@@ -21,4 +21,4 @@ export default class Screen2 extends GenericElement {
 
   }
 }
-window.customElements.define('x-screen2', Screen2);
+window.customElements.define('x-profil', Profil);

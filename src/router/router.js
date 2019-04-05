@@ -48,4 +48,4 @@ export default class Router extends GenericElement {
     }
   }
 }
-window.customElements.define('router-wc', Router);
+window.customElements.define('x-router', Router);

@@ -48,10 +48,6 @@ module.exports = [{
     new HtmlWebpackPlugin({
       inject: false,
       template: 'src/index.html'
-    }),
-    new CopyWebpackPlugin([{
-      from: 'src/style/',
-      to: 'style',
-    }], {})
+    })
   ]
 }];
