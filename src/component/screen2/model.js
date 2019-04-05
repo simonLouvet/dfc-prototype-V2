@@ -1,6 +1,6 @@
 import GenericElement from '../../core/genericElement.js';
 import view from 'html-loader!./view.html';
-export default class Header extends GenericElement {
+export default class Screen2 extends GenericElement {
   constructor() {
     super(view);
   }
@@ -21,4 +21,4 @@ export default class Header extends GenericElement {
 
   }
 }
-window.customElements.define('header-wc', Header);
+window.customElements.define('screen2-wc', Screen2);

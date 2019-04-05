@@ -1,4 +1,4 @@
-import GenericElement from '../../core/GenericElement.js';
+import GenericElement from '../../core/genericElement.js';
 import view from 'html-loader!./view.html';
 export default class Home extends GenericElement {
   constructor() {

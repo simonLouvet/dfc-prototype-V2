@@ -8,9 +8,15 @@
   <% } %>
 </head>
 <body>
-  <navigation-wc></navigation-wc>
+  <navigation-wc>
+    <style>
+      <%=require('./style/containers.css') %>
+      <%=require('./style/shared.css') %>
+    </style>
+  </navigation-wc>
+  <router-wc default="home-wc"></router-wc>
 </body>
 <style>
-  <%=require('./style/main.css') %>
+<%=require('./style/colors.css') %>
 </style>
 </html>

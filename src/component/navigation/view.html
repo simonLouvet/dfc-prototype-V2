@@ -1,12 +1,22 @@
-<div id="navigation" class="containerv">
-<header-wc></header-wc>
-<home-wc></home-wc>
+<div id="main" class="containerH">
+  <div class="containerV" style="flex:1">
+    <header-wc></header-wc>
+    <div class="containerH" style="flex:1">
+      <menu-wc id="menu" style="flex-basis:200px"></menu-wc>
+      <div class="box containerV" id="screen" style="flex:1"></div>
+    </div>
+  </div>
 </div>
 <style>
-
-  #main{
-    backgroundColor : black;
-    color : white;
+  #main {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
   }
 
+  #screen{
+    margin:5px;
+  }
 </style>
